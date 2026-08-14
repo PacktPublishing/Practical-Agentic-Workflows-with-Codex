@@ -1,0 +1,14 @@
+{
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo \"Stop hook fired at $(date)\" >> /tmp/codex-hooks.log"
+          }
+        ]
+      }
+    ]
+  }
+}

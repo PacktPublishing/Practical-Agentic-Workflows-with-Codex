@@ -1,0 +1,54 @@
+.container {
+  border-radius: 10px;
+  padding: 18px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.profit {
+  background: #f0fdf4;
+  border: 1px solid #bbf7d0;
+}
+
+.loss {
+  background: #fef2f2;
+  border: 1px solid #fecaca;
+}
+
+.label {
+  font-size: 0.82rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin: 0 0 6px 0;
+  color: #64748b;
+}
+
+.amount {
+  font-size: 1.6rem;
+  font-weight: 800;
+  margin: 0 0 4px 0;
+  color: inherit;
+}
+
+.profit .amount {
+  color: #16a34a;
+}
+
+.loss .amount {
+  color: #dc2626;
+}
+
+.status {
+  font-size: 0.82rem;
+  font-weight: 500;
+  margin: 0;
+}
+
+.profit .status {
+  color: #16a34a;
+}
+
+.loss .status {
+  color: #dc2626;
+}

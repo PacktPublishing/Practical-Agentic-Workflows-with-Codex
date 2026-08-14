@@ -1,0 +1,17 @@
+.list {
+  flex: 1;
+  min-width: 0;
+}
+
+.heading {
+  margin: 0 0 16px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #1a202c;
+}
+
+.grid {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
